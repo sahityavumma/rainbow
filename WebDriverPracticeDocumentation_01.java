@@ -23,6 +23,6 @@ public class WebDriverPracticeDocumentation_01 {
         driver.findElement(By.linkText("Projects")).click();
         driver.findElement(By.linkText("Selenium Grid")).click();
         assertEquals("Checking the title Selenium Grid","Selenium Grid", driver.getTitle());
-        driver.quit();
+        driver.close();
     }
 }
